@@ -1,16 +1,60 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 Robi Portfolio
 
-Currently, two official plugins are available:
+Personal portfolio website built with **React** and **Tailwind CSS v4**, focused on modern UI, clean structure, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧩 Tech Stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,tailwind,vite" />
+</p>
 
-## Expanding the ESLint configuration
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-v4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-Build_Tool-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+</div>
+
+---
+
+## ✨ Features
+
+- ⚡ Fully responsive (desktop & mobile)
+- 🎨 Modern UI with gradient, glow, dots & noise effects
+- ⌨️ Typing animation on hero section
+- 🧭 Smooth navigation with scroll offset handling
+- 📜 Certificates preview section
+- ♿ Lightweight animations & clean layout
+- 🧩 Modular React component architecture
+
+---
+
+## 📂 Website Sections
+
+- **Home** – Hero section with typing effect
+- **About** – Personal introduction & focus areas
+- **Skills** – Tech stack overview
+- **Projects** – Selected works
+- **Certificates** – Achievements
+- **Contact** – Social links & contact info
+
+---
+
+## 🚀 Getting Started
+
+```bash
+npm install
+npm run dev
+````
+
+---
+
+## 👤 Author
+
+**Muhamad Robi Ardita**
+Informatics Student | Frontend Enthusiast
