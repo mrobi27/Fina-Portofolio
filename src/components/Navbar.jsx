@@ -15,14 +15,12 @@ export default function Navbar() {
   const [active, setActive] = useState("home");
   const [open, setOpen] = useState(false);
 
-  // background blur on scroll
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // active section observer
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -83,7 +81,7 @@ export default function Navbar() {
           href="#home"
           className="text-white font-bold text-lg tracking-wide hover:text-cyan-400 transition"
         >
-          Robi
+          Fina
         </a>
 
         {/* DESKTOP MENU */}

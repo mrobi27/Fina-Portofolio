@@ -23,19 +23,14 @@ export default function About() {
           </h2>
 
           <p className="text-slate-400 leading-relaxed mb-5 text-sm sm:text-base">
-            I am an Informatics student with a strong interest in modern
-            technology, particularly in{" "}
-            <span className="text-slate-200">front-end development</span>,
-            <span className="text-slate-200"> UI/UX design</span>, and
-            <span className="text-slate-200"> cybersecurity</span>.
+            I am an Industrial Engineering student with a strong interest in data analysis, process improvement, and industrial systems. 
+            I enjoy analyzing data, identifying inefficiencies, and designing solutions to improve system performance.
           </p>
 
           <p className="text-slate-400 leading-relaxed text-sm sm:text-base">
-            I enjoy crafting clean and intuitive interfaces, transforming
-            design concepts into responsive and user-friendly web applications.
-            Alongside front-end development, I actively explore cybersecurity
-            topics and participate in CTF challenges to sharpen my analytical
-            thinking and problem-solving skills.
+            My academic background has equipped me with knowledge in statistics, operations research, manufacturing systems, and work system design. 
+            I am experienced in using R programming, Microsoft Excel, AutoCAD, and Autodesk Inventor to support data-driven decision making and effective 
+            industrial solutions.
           </p>
         </div>
 
@@ -48,26 +43,26 @@ export default function About() {
           "
         >
           <SkillCard
-            title="Front-End Development"
-            desc="Responsive UI & modern web interfaces"
+            title="Data Analysis"
+            desc="Statistical analysis & data-driven insights"
             gradient="from-cyan-500/20 via-transparent to-blue-500/20"
           />
 
           <SkillCard
-            title="UI / UX Design"
-            desc="Wireframing, prototyping & visual systems"
+            title="Process Improvement"
+            desc="System efficiency & workflow optimization"
             gradient="from-purple-500/20 via-transparent to-cyan-500/20"
           />
 
           <SkillCard
-            title="Cybersecurity"
-            desc="CTF challenges & security fundamentals"
+            title="Manufacturing Systems"
+            desc="Production systems & operations planning"
             gradient="from-red-500/20 via-transparent to-orange-500/20"
           />
 
           <SkillCard
-            title="Problem Solving"
-            desc="Logic, analysis & debugging mindset"
+            title="Technical Tools"
+            desc="R Programming, Excel, AutoCAD & Inventor"
             gradient="from-emerald-500/20 via-transparent to-cyan-500/20"
           />
         </div>

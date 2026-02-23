@@ -1,5 +1,5 @@
 import { useRef, useState, useEffect } from "react";
-import foto from "../assets/foto/Foto 3x4.JPG";
+import foto from "../assets/foto/Foto 3x4.jpeg";
 
 export default function Hero() {
   const cardRef = useRef(null);
@@ -8,7 +8,7 @@ export default function Hero() {
   /* =======================
      TYPING EFFECT (NAME)
   ======================= */
-  const fullName = "Muhamad Robi Ardita";
+  const fullName = "Fina Adiyanti";
   const [displayText, setDisplayText] = useState("");
   const [typingDone, setTypingDone] = useState(false);
 
@@ -83,14 +83,14 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center pt-28 pb-32"
+      className="relative min-h-screen flex items-center pt-28 pb-32 overflow-hidden"
     >
-      <div className="relative max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 sm:gap-14 items-center">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 sm:gap-14 items-center">
 
         {/* TEXT */}
         <div className="animate-fade-up md:pl-6 text-center md:text-left">
           <span className="block text-xs sm:text-sm tracking-widest text-cyan-400 mb-3">
-            INFORMATICS STUDENT
+            INDUSTRIAL ENGINEERING STUDENT
           </span>
 
           {/* NAME */}
@@ -113,54 +113,70 @@ export default function Hero() {
           </h1>
 
           <p className="mt-5 text-slate-400 max-w-lg mx-auto md:mx-0 leading-relaxed text-sm sm:text-base">
-            An Informatics student with a strong interest in modern technology,
-            cybersecurity, and digital system development. Passionate about
-            building strong fundamentals and creating impactful digital
-            solutions.
+            An Industrial Engineering student with a strong interest in data analysis, 
+            process improvement, and industrial systems. Experienced in using R programming,
+            Microsoft Excel, AutoCAD, and Autodesk Inventor to support data-driven decision 
+            making and efficient system design.
           </p>
         </div>
 
         {/* PHOTO CARD */}
         <div className="relative flex justify-center animate-fade-up animate-delay-2">
-          <div
-            ref={cardRef}
-            onMouseMove={handleMove}
-            onMouseLeave={reset}
-            className="
-              relative
-              w-64 h-88
-              sm:w-72 sm:h-96
-              rounded-2xl
-              transition-transform duration-200 ease-out
-              will-change-transform
-            "
-          >
-            {/* COLOR AURA */}
+
+          {/* THIN BLUR FRAME */}
+          <div className="relative rounded-2xl p-[4px]">
             <div
-              ref={glowRef}
               className="
-                absolute inset-[-18px]
-                rounded-[28px]
-                blur-2xl
-                transition-all duration-200
+                absolute inset-0
+                rounded-2xl
+                bg-gradient-to-br
+                from-sky-400/70
+                via-purple-500/70
+                to-indigo-600/70
+                blur-md
+                opacity-60
                 pointer-events-none
               "
             />
 
-            {/* IMAGE */}
-            <img
-              src={foto}
-              alt="Muhamad Robi Ardita"
+            <div
+              ref={cardRef}
+              onMouseMove={handleMove}
+              onMouseLeave={reset}
               className="
                 relative
-                w-full h-full
-                object-cover
+                w-64 h-88
+                sm:w-72 sm:h-96
                 rounded-2xl
-                border border-white/10
-                shadow-[0_30px_70px_rgba(0,0,0,0.6)]
-                bg-[#020617]
+                transition-transform duration-200 ease-out
+                will-change-transform
               "
-            />
+            >
+              <div
+                ref={glowRef}
+                className="
+                  absolute inset-[-18px]
+                  rounded-[28px]
+                  blur-2xl
+                  transition-all duration-200
+                  pointer-events-none
+                "
+              />
+
+              <img
+                src={foto}
+                alt="Fina Adiyanti"
+                className="
+                  relative
+                  w-full h-full
+                  object-cover
+                  rounded-2xl
+                  border border-white/10
+                  shadow-[0_30px_70px_rgba(0,0,0,0.6)]
+                  bg-[#020617]
+                "
+              />
+            </div>
           </div>
         </div>
       </div>

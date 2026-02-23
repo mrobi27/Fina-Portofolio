@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Robi Portfolio
+# 🚀 Fina Portfolio
 
 Personal portfolio website built with **React** and **Tailwind CSS v4**, focused on modern UI, clean structure, and responsive design.
 
@@ -51,10 +51,3 @@ Personal portfolio website built with **React** and **Tailwind CSS v4**, focused
 npm install
 npm run dev
 ````
-
----
-
-## 👤 Author
-
-**Muhamad Robi Ardita**
-Informatics Student | Frontend Enthusiast

@@ -10,11 +10,20 @@ export default function App() {
   return (
     <>
       {/* =====================
-         GLOBAL BACKGROUND
+         GLOBAL BACKGROUND LAYERS
       ===================== */}
+
+      {/* BASE DARK BACKGROUND */}
       <div className="fixed inset-0 -z-50 global-bg" />
-      <div className="fixed inset-0 -z-40 bg-dots pointer-events-none" />
-      <div className="fixed inset-0 -z-30 bg-noise pointer-events-none" />
+
+      {/* NEON PURPLE AURORA (GLOBAL, HALUS) */}
+      <div className="fixed inset-0 -z-40 bg-aurora-global pointer-events-none" />
+
+      {/* DOT GRID */}
+      <div className="fixed inset-0 -z-30 bg-dots pointer-events-none" />
+
+      {/* NOISE / GRAIN */}
+      <div className="fixed inset-0 -z-20 bg-noise pointer-events-none" />
 
       {/* =====================
          MAIN CONTENT
