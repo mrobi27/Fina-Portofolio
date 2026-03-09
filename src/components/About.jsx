@@ -18,7 +18,7 @@ export default function About() {
       >
         {/* ===== LEFT : ABOUT TEXT ===== */}
         <div className="animate-fade-up text-center md:text-left">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gradient mb-4">
+        <h2 className="section-title text-2xl sm:text-3xl mb-4 tracking-tight text-left">
             About Me
           </h2>
 

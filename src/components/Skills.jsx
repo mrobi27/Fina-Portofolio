@@ -31,7 +31,7 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto px-6 text-center">
 
         {/* TITLE */}
-        <h2 className="text-3xl font-bold text-gradient mb-4">
+        <h2 className="section-title text-2xl sm:text-3xl mb-4 tracking-tight text-center">
           Tech Stack
         </h2>
 
